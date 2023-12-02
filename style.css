@@ -43,6 +43,15 @@ nav{
     margin: 0 auto;
     box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 }
+
+.rotate{
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .title{
     margin: 30px auto;
 }
