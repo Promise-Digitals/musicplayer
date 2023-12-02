@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <nav>
+                <div class="circle"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="circle"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+            <img src="media/468-thumbnail.png" alt="" class="feature-image">
+            <div class="title">
+                <h1>Hosanna</h1>
+                <p>Hillsong_Worship(128kbps)</p>
+            </div>
+            <audio id="song">
+                <source src="media/Hosanna_-_Hillsong_Worship(128kbps).m4a">
+            </audio>
+            <input type="range" value="0" id="slide">
+            <div class="controls">
+                <div><i class="fa-solid fa-backward-fast"></i></div>
+                <div onclick="playpause()"><i class="fa-solid fa-play" id="play-btn"></i></div>
+                <div><i class="fa-solid fa-forward-fast"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="myscricpt.js"></script>
+</body>
+</html>
