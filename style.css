@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #1f2b37;
+    background: #181818;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,14 @@ nav{
     margin-bottom: 40px;
 }
 .circle i{
-    color: #4f76f6;
+    color: #6660ff;
 }
 .feature-image{
     width: 220px;
     border: 8px solid #fff;
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: 0 0 10px rgba(26, 26, 255, 0.5);
+    box-shadow: 0 0 10px #6660ff;
 }
 
 .rotate{
@@ -69,7 +69,7 @@ nav{
     width: 100%;
     height: 3px;
     margin: 40px 0;
-    background: #4f76f6;
+    background: #6660ff;
     cursor: pointer;
 }
 #slide::-webkit-slider-thumb{
@@ -88,12 +88,12 @@ nav{
     height: 45px;
     border-radius: 50px;
     background: #fff;
-    color: #4f76f6;
+    color: #6660ff;
     line-height: 45px;
-    box-shadow: 0 0 5px rgba(26, 26, 255, 0.5);
+    box-shadow: 0 0 5px #6660ff;
 }
 .controls div:nth-child(2){
     transform: scale(1.5);
-    background: #4f76f6;
+    background: #6660ff;
     color: #fff;
 }
